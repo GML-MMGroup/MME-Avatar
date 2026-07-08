@@ -2,6 +2,8 @@
 
 **MME-Avatar: A Controlled Multi-Modal Evaluation Benchmark for Affective Digital Humans**
 
+![MME-Avatar overview](images/main_2.png)
+
 MME-Avatar is a controlled multi-modal evaluation benchmark for affective digital humans. Instead of evaluating avatar systems as isolated talking-head generators, MME-Avatar treats them as coupled multimodal systems where identity, affect, language, motion, foreground quality, and audio-visual synchronization can be analyzed together.
 
 The dataset contains **8,400 green-screen seated half-body performances** from **30 actors**, crossing **7 emotions**, **4 action templates**, and **10 scripts**. Each sample provides synchronized audio, video, text, metadata, soft alpha mattes, and RGBA foregrounds, enabling paired and compositable evaluation units for controlled failure attribution.
@@ -32,9 +34,8 @@ The following figures will be added to the release page and paper repository:
 Suggested paths:
 
 ```text
-assets/
-├── teaser.png
-├── pipeline.png
+images/
+├── main_2.png
 ├── matting_examples.png
 ├── dataset_gallery.png
 └── benchmark_overview.png
